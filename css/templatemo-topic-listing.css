@@ -11,15 +11,15 @@ https://templatemo.com/tm-590-topic-listing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
+  --primary-color:                #00A651;
+  --secondary-color:              #4CAF50;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
-  --dark-color:                   #000000;
+  --custom-btn-bg-color:          #00A651;
+  --custom-btn-bg-hover-color:    #27AE60;
+  --dark-color:                   #2C3E50;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --border-color:                 #4CAF50;
+  --link-hover-color:             #27AE60;
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -248,7 +248,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #00A651 0%, #4CAF50 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -284,12 +284,12 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .navbar {
   background: transparent;
-  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
+  border-bottom: 1px solid rgba(0, 166, 81, 0.35);
   z-index: 9;
 }
 
